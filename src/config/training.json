@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "defaults": {
+    "repetitions": 10,
+    "language": "es-MX",
+    "evaluationThreshold": 0.7
+  },
+  "exercises": [
+    {
+      "id": "q1",
+      "prompt": "Buenos días",
+      "expectedResponse": "Buenos días, ¿cómo estás?",
+      "keywords": [
+        "buenos",
+        "dias"
+      ],
+      "repetitions": 10
+    },
+    {
+      "id": "q2",
+      "prompt": "¿Cómo te llamas?",
+      "expectedResponse": "Me llamo Arturo",
+      "keywords": [
+        "llamo",
+        "arturo"
+      ],
+      "repetitions": 10
+    }
+  ],
+  "sequence": [
+    "q1",
+    "q2"
+  ]
+}
